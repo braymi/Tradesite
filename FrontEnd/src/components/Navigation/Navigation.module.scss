@@ -1,0 +1,31 @@
+header {
+  height: 5rem;
+  width: 100%;
+  color: #ffad01;
+  // background-color: #04083a;
+  background-color: #2a3680;
+  a {
+    color: #ffad01;
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    div {
+      display: flex;
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 2rem;
+        li {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
